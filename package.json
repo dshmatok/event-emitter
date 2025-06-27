@@ -4,7 +4,8 @@
     "engines": {
         "node": "^22.x.x"
     },
-    "types": "./dist/*.d.ts",
+    "types": "./dist/index.d.ts",
+    "repository": "github:sevgeek/event-emitter",
     "description": "Implementing NodeJS EventEmitter class for browsers",
     "main": "./src/index.ts",
     "module": "true",

@@ -8,7 +8,7 @@ import {
     type EventsMap,
     type EventStruct,
     type EventEmitterConfig,
-} from "./validation";
+} from "./validations";
 
 import { logError, log, assert } from "./utils";
 

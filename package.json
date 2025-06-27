@@ -1,0 +1,29 @@
+{
+    "name": "event-emitter",
+    "version": "1.0.0",
+    "engines": {
+        "node": "^22.x.x"
+    },
+    "types": "./dist/*.d.ts",
+    "description": "Implementing NodeJS EventEmitter class for browsers",
+    "main": "./src/index.ts",
+    "module": "true",
+    "scripts": {
+        "dev": "npm run pre-build && tsc --watch",
+        "start": "nodemon ./dist/index.js",
+        "build": "npm run pre-build && tsc --build",
+        "pre-build": "rm -rf ./dist"
+    },
+    "keywords": [
+        "event",
+        "emitter"
+    ],
+    "author": "Dmitry Shmatok <dev@dshmatok.ru>",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "zod": "^3.25.67"
+    }
+}
